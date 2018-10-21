@@ -1,0 +1,14 @@
+Problem 1 Chapter 5
+
+Book : Java Programming from the Beginning
+
+Modify the SSNinfo program(section 4.9) by storing the area 
+numbers and corresponding locations in parallel arrays.
+
+int [] areaNumbers = {3,7,9,...};
+String [] locations = {"New Hampshire","Maine","vermont",..};
+
+Use a loop to search areaNumbers for the first element that's
+greater than or equal to the area number entered by the user.
+The corresponding element of the locations array will contained
+the desire location.
